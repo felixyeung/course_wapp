@@ -1,5 +1,15 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+    h1= title
+    p Welcome to #{title}
+    h1= title
+
+    a#test_link.alinks(href="#")
+        this is a link
+    br
+    a#test_link2.alinks(href="#")
+        this is a link
+    
+    div#test.adiv
+        p This is content
